@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controllers.AddFriendshipController"
+      alignment="CENTER"
+      spacing="15"
+      style="-fx-padding: 25; -fx-background-color: #f8f8f8;">
+
+    <Label text="Add Friendship"
+           style="-fx-font-size: 26px; -fx-font-weight: bold"/>
+
+    <TextField fx:id="user1Field"
+               promptText="User 1 ID"
+               prefWidth="250"/>
+
+    <TextField fx:id="user2Field"
+               promptText="User 2 ID"
+               prefWidth="250"/>
+
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Add"
+                onAction="#handleAdd"
+                prefWidth="100"/>
+
+        <Button text="Cancel"
+                onAction="#handleCancel"
+                prefWidth="100"/>
+    </HBox>
+
+</VBox>

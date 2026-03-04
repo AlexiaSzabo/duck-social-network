@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controllers.AddDuckController"
+      alignment="CENTER"
+      spacing="15"
+      style="-fx-padding: 25; -fx-background-color: #ffffff;">
+
+    <Label text="Add Duck"
+           style="-fx-font-size: 26px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="usernameField"
+               promptText="Username"
+               prefWidth="250"/>
+
+    <TextField fx:id="emailField"
+               promptText="Email"
+               prefWidth="250"/>
+
+    <PasswordField fx:id="passwordField"
+                   promptText="Password"
+                   prefWidth="250"/>
+
+    <!-- ENUM TIPRATA -->
+    <ComboBox fx:id="typeBox"
+              prefWidth="250"/>
+
+    <TextField fx:id="speedField"
+               promptText="Speed"
+               prefWidth="250"/>
+
+    <TextField fx:id="staminaField"
+               promptText="Stamina"
+               prefWidth="250"/>
+
+    <HBox spacing="20">
+        <Button text="Add" onAction="#handleAddDuck" prefWidth="100"/>
+        <Button text="Cancel" onAction="#handleCancel" prefWidth="100"/>
+    </HBox>
+
+</VBox>

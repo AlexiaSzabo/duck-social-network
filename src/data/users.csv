@@ -1,0 +1,11 @@
+# type,username,email,password,nume,prenume,ocupatie,nivelEmpatie,dataNasterii,tip,viteza,rezistenta
+PERSON,aaa,andrei@mail.com,pass123,Popescu,Andrei,student,8.5,2002-04-11
+PERSON,bbb,elena@mail.com,pass456,Marin,Elena,profesor,9.2,1989-07-25
+PERSON,ccc,maria@mail.com,1234,Ionescu,Maria,student,7.0,2001-09-09
+PERSON,ddd,dan@mail.com,abcd,Popa,Dan,student,6.5,2003-01-14
+DUCK,eee,duck@mail.com,quack,SWIMMING,5.2,9.1
+DUCK,fff,sky@mail.com,flyhigh,FLYING_AND_SWIMMING,8.0,7.0
+DUCK,ggg,winged@mail.com,flap,FLYING,7.5,6.8
+DUCK,hhh,super@mail.com,quackquack,SWIMMING,6.5,8.5
+DUCK,iii,fast@mail.com,speed,FLYING,9.0,7.5
+DUCK,jjj,strong@mail.com,tough,SWIMMING,6.0,9.2

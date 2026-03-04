@@ -1,0 +1,5 @@
+# ID,PARTICIPANTS,LANES
+E1,eee|hhh|jjj,1|2|3
+E2,fff|ggg|iii,1|2|3
+E3,eee|fff,1|2
+E4,ggg|iii|fff,1|2|3
